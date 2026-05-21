@@ -1,0 +1,38 @@
+/*                       __________________							  */
+/*                        S |-| - D - \/\/ 							  */
+/*                       ==================							  */
+/*																	  */
+/*   	   Original code developed during 42.fr curriculum. 		  */
+/* 			  Project renamed and refactored for clarity.			  */
+/*             Created: 2016-11-18 by S𝔥𝔞⁽ᵃʰⁱ⁾d M𝔞𝔥𝔬𝔪𝔢ᵈ				  */
+/*																	  */
+/*   Copyright [2026] [S𝔥𝔞⁽ᵃʰⁱ⁾d M𝔞𝔥𝔬𝔪𝔢ᵈ] under Apache 2.0 License	  */
+
+#include "clibrary.h"
+
+int		i_memcmp(const void *s1, const void *s2, size_t n)
+{
+	return (memcmp(s1, s2, n));
+}
+/*
+{
+	int			v[3];
+	const char	*s[2];
+
+	s[0] = s1;
+	s[1] = s2;
+	v[0] = -1;
+	while (++v[0] < (int)n)
+	{
+		v[1] = s[0][v[0]];
+		v[2] = (int)s[1][v[0]];
+		if (s[0][v[0]] < 0)
+			v[1] += 256;
+		if (s[1][v[0]] < 0)
+			v[2] += 256;
+		if (s[0][v[0]] != s[1][v[0]])
+			return (v[1] - v[2]);
+	}
+	return (0);
+}
+*/
